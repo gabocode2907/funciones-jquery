@@ -13,7 +13,7 @@
                 $("#addclassp").addClass("red");
             });
             $("#slidetogglebtn").click(function(){
-                $("#hiddenimg").slideToggle("slow");
+                $("#hiddenimg").slideToggle();
             });
             $("#appendbtn").click(function(){
                 $("#div3").append("<p>This is a new Parragraph!</>");
@@ -23,6 +23,9 @@
             });
             $("#showbtn").click(function(){
                 $("#img2").show();
+            });
+            $("#togglebtn").click(function(){
+                $("#img3").toggle();
             });
         });
     </script>
@@ -55,6 +58,13 @@
             <h1 class="h1">Hide & Show</h1>
             <img id="img2" class="img1" src="media/img1.png">
             <p id="hideandshow">Click Hide and Show!</p>
+        </div>
+        <div class="separador"></div>
+        <div id="div5">
+            <input type="button" id="togglebtn" value="Toggle">
+            <h1 class="h1">Toggle</h1>
+            <img id="img3" class="img1" src="media/img1.png">
+            <p id="toggle">Click button to Toggle an image</p>
         </div>
         <div class="separador"></div>
     </div>
