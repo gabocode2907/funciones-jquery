@@ -1,0 +1,31 @@
+.container{
+    height: auto;
+    width: 400px;
+    margin: 0px auto;
+
+}
+
+p{
+    width: 400px;
+    text-align: center;
+}
+
+    .container .separador {
+        height: 4px;
+        width: 400px;
+        background-color: coral;        
+    }
+
+    .container .img1 {
+        /* display: none; */
+        margin-left: 120px;
+    }
+
+.h1 {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.red {
+    color: red;
+}
