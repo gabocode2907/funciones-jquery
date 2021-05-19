@@ -18,6 +18,12 @@
             $("#appendbtn").click(function(){
                 $("#div3").append("<p>This is a new Parragraph!</>");
             });
+            $("#hidebtn").click(function(){
+                $("#img2").hide();
+            });
+            $("#showbtn").click(function(){
+                $("#img2").show();
+            });
         });
     </script>
 
@@ -41,6 +47,14 @@
             <input type="button" id="appendbtn" value="Append">
             <h1 class="h1">Append</h1>
             <p id="slidetogglep">Click button to Append a new parragraph!</p>
+        </div>
+        <div class="separador"></div>
+        <div id="div4">
+            <input type="button" id="hidebtn" value="Hide">
+            <input type="button" id="showbtn" value="Show">
+            <h1 class="h1">Hide & Show</h1>
+            <img id="img2" class="img1" src="media/img1.png">
+            <p id="hideandshow">Click Hide and Show!</p>
         </div>
         <div class="separador"></div>
     </div>
